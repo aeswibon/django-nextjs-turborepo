@@ -58,6 +58,8 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
 
+  apps/server: {}
+
   apps/web:
     dependencies:
       '@repo/ui':

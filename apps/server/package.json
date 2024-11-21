@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "runserver": "pipenv run python manage.py runserver",
+    "install": "pipenv install",
+    "migrate": "pipenv run python manage.py migrate --run-syncdb",
+    "migrate:show": "pipenv run python manage.py showmigrations",
+    "migrate:make": "pipenv run python manage.py makemigrations",
+    "db:flush": "pipenv run python manage.py flush --no-input"
+  }
+}
